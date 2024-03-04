@@ -1,16 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function Header(props) {
-    return (
-        <nav>
-            <div className="nav-wrapper header_nav">
-                <a href="#" className="brand-logo">React</a>
-                <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><a href="#">Movie</a></li>
-                </ul>
-            </div>
-        </nav>
-    );
+  return (
+    <nav>
+      <div className="">
+        <h1 className="text-center mt-4 mb-5">Movie</h1>
+      </div>
+    </nav>
+  );
 }
 
 export default Header;
